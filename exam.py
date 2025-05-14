@@ -52,14 +52,15 @@ Display_customer_list()
 #===============Exam 2====================================#
 
 def Total_Users():
-    count = 0  
+     
     with open ("user.txt", "r") as user_file:
+        count = 1
         for line in user_file:
             line = user_file.readlines()
             count += 1
-            total = line
+            total = len(line)
 
-        print("Total Users: ", total)
+    print("Total Users: ", total)
 Total_Users()
 
 
