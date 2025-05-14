@@ -1,0 +1,2 @@
+C0001,Sathusha,1234,26,female,vavuniya,1234
+C0002,Dayana,!@#$,22,female,Vavuniya,1234567
